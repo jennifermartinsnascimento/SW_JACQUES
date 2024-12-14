@@ -1,0 +1,32 @@
+{
+  "noticias": [
+    {
+      "id": 1,
+      "categoria": "Ciência e Tecnologia",
+      "titulo": "Novo avanço na fusão nuclear promete energia limpa",
+      "descricao": "Cientistas anunciam protótipo de reator de fusão mais eficiente, trazendo esperança para energia sustentável.",
+      "publicado_em": "2024-12-14"
+    },
+    {
+      "id": 2,
+      "categoria": "Entretenimento",
+      "titulo": "Filme mais aguardado do ano bate recorde de bilheteria",
+      "descricao": "Produção épica atrai milhões de espectadores no fim de semana de estreia.",
+      "publicado_em": "2024-12-13"
+    },
+    {
+      "id": 3,
+      "categoria": "Economia",
+      "titulo": "Mercado financeiro em alta após novas políticas econômicas",
+      "descricao": "Bolsa de valores registra crescimento significativo, impulsionada por reformas fiscais.",
+      "publicado_em": "2024-12-12"
+    },
+    {
+      "id": 4,
+      "categoria": "Jogos",
+      "titulo": "Novo RPG promete revolucionar a indústria",
+      "descricao": "Desenvolvedores apresentam mecânicas inovadoras em título que será lançado em 2025.",
+      "publicado_em": "2024-12-11"
+    }
+  ]
+}

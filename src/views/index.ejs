@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    header {
+        background-color: #ece3cc;
+        display: flex;
+        width: 100%;
+        margin-top: -8px;
+        padding: 10px;
+
+    }
+
+    #container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    }
+
+    body {
+        background-color: #809bb6;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    #dia {
+        font-size: x-large;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    #noticia{
+        margin-bottom:40px;
+        font-size: large;
+    }
+    #Titulo{
+        font-size: x-large;
+    }
+</style>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Noticias do Sergio</h1>
+        </header>
+        <ul>
+            <strong>
+
+                <li id="dia">Noticias do dia</li>
+            </strong>
+            <% noticias.forEach((noticia)=> { %>
+                <li>
+                    <strong id="Titulo">
+                        <%= noticia.titulo %>
+                        <br>
+                    </strong>
+                    <br>
+                    <div id="noticia">
+                    <%= noticia.noticia %>
+                </div>
+                </li>
+                <% }) %>
+        </ul>
+    </div>
+</body>
+
+</html>
