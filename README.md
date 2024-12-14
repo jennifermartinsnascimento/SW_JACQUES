@@ -45,12 +45,6 @@ Implementação de middlewares para tratamento de erros:
 Erros 404: Exibe uma página personalizada para rotas não encontradas.
 Erros 500: Lida com falhas internas do servidor de maneira elegante.
 Organização das dependências e configuração de constantes, como a variável PORT, para facilitar a manutenção.
-5. Conclusão
-O projeto utiliza a arquitetura MVC para organizar as responsabilidades de forma clara e eficiente. Ele está preparado para ser escalado, com suporte a adições futuras de funcionalidades e melhorias. Essa abordagem garante que o desenvolvimento permaneça sustentável e flexível ao longo do tempo.
-
-Se desejar mais informações ou ajustes no projeto, sinta-se à vontade para solicitar!
-
-
 
 
 
